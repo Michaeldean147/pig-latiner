@@ -12,15 +12,12 @@ class PigLatin
     words.each do |word|
       is_word_cap = (word == word.capitalize)
 
-
-
       if punc.include?(word[-1])
         punctuation = word[-1]
         word = word[0..-2]
       else
-        punctuation = ""  
+        punctuation = ""
       end
-      # puts ">>>#{is_word_cap}<<<"
 
       while !vowels.include?(word[0])
         if !vowels.include?(word[0])
