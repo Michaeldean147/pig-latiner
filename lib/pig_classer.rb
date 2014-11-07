@@ -2,7 +2,6 @@ class PigClasser
 
 
   def self.translate(phrase)
-
    vowels = ["a",'e','i','o','u']
    punc = [",",".","?","!"]
    words = phrase.split(" ")
