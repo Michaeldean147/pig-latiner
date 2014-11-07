@@ -38,13 +38,4 @@ class PigClasser
 
 
   end
-
-
-
-
-
-
-
-
-
 end
